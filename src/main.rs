@@ -37,7 +37,7 @@ fn main() {
                         }
                     },
                     // mstClass
-                    1 => record.insert(__record["attri"].as_i64().unwrap(), array[file_index.unwrap()].to_string()),
+                    1 => record.insert(__record["attri"].as_i64().unwrap() + 99, array[file_index.unwrap()].to_string()),
                     // mstFunc
                     2 => {
                         for key in ["tvals", "questTvals"].iter() {
