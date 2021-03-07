@@ -1,0 +1,9 @@
+[package]
+name = "fgo-trait-aggregator"
+version = "0.1.0"
+authors = ["minhducsun2002 <32769878+minhducsun2002@users.noreply.github.com>"]
+edition = "2018"
+
+[dependencies]
+serde_json = "1.0"
+multimap = "0.8.2"
